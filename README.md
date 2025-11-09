@@ -21,16 +21,6 @@ A production-grade TCP-based chat server built with Node.js's native `net` modul
 
 - Node.js 14.0.0 or higher
 
-### Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/socket-chat-server-node.git
-cd socket-chat-server-node
-
-# No dependencies to install - uses only Node.js standard library!
-```
-
 ## Usage
 
 ### Starting the Server
@@ -55,7 +45,7 @@ npm start
 
 ### Connecting as a Client
 
-Use `nc` (netcat), `telnet`, or any TCP client:
+Use `ncat` (netcat), `telnet`, or any TCP client:
 
 ```bash
 nc localhost 4000
@@ -274,7 +264,7 @@ nc localhost 4000
 
 ## Demo Video
 
-🎥 **Screen Recording:** [Link to demo video showing live multi-user chat]
+**Screen Recording:** [Link to demo video showing live multi-user chat]
 
 _Recording shows:_
 
@@ -356,7 +346,7 @@ Built as part of a backend engineering assignment.
 
 ## Repository
 
-**GitHub:** `https://github.com/yourusername/socket-chat-server-node`
+**GitHub:** `https://github.com/rohan2542/SocketChatServer`
 
 ---
 
