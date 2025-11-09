@@ -1,0 +1,23 @@
+{
+    "name": "socket-chat-server-node",
+    "version": "1.0.0",
+    "description": "A TCP-based chat server using Node.js net module for real-time multi-user communication",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js"
+    },
+    "keywords": [
+        "tcp",
+        "chat",
+        "socket",
+        "net",
+        "server",
+        "concurrent"
+    ],
+    "author": "",
+    "license": "MIT",
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
